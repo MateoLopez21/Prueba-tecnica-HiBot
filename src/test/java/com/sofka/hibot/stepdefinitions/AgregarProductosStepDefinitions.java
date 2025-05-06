@@ -23,7 +23,6 @@ public class AgregarProductosStepDefinitions {
 
     @Before
     public void setUpAgregarProductos() {
-        System.out.println(">>> Before AgregarProductosStepDefinitions");
         WebDriver driver = Serenity.getWebdriverManager().getWebdriver();
         usuario.can(BrowseTheWeb.with(driver));
     }
