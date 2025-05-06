@@ -23,7 +23,6 @@ public class FinalizarCompraStepDefinitions {
 
     @Before
     public void setUpFinalizarCompra(){
-        System.out.println(">>> Before FinalizarCompraStepDefinitions");
         WebDriver driver = Serenity.getWebdriverManager().getWebdriver();
         usuario.can(BrowseTheWeb.with(driver));
 
